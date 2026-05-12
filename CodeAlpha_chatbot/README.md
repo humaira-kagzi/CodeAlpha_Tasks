@@ -101,4 +101,4 @@ python chatbot.py
 Humaira Kagzi
 
 
-Made with ❤️ using Python for learning purposes.
+Python Mini Project - Simple ChatBot
