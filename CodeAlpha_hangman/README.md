@@ -94,4 +94,6 @@ You can add more words to make the game more interesting.
 
 ## 👨‍💻 Author
 Humaira Kagzi
+
+
 Python Mini Project - Hangman Game
