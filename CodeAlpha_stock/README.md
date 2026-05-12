@@ -127,24 +127,6 @@ Total Investment = 1140
 
 ---
 
-## ⚠️ Note
-
-In your code, the variable name is written as:
-
-```python id="d2f4g6"
-protfolio
-```
-
-Correct spelling should be:
-
-```python id="h7j8k9"
-portfolio
-```
-
-You can rename it for better readability.
-
----
-
 ## 👨‍💻 Author
 Humaira Kagzi
 
