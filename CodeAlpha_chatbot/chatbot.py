@@ -1,7 +1,7 @@
 def chatbot():
     print("ChatBot Started! (Type,'Bye'to exit)")
     while True:
-        user=input("You: ").lower()
+        user=input("You: ")
 
         if user == "hello":
             print("Bot: Hi!")
