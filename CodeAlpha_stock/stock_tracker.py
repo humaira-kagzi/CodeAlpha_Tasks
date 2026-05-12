@@ -5,7 +5,7 @@ stocks={
     "AMAZON":140,
     "TSLA":300
 }
-protfolio={}
+portfolio={}
 total=0
 
 n=int(input("How Many Stocks Do You Want To Enter?"))
@@ -15,13 +15,13 @@ for i in range(n):
     qty=int(input("Enter Quantity:"))
 
     if name in stocks:
-        protfolio[name]=qty
+        portfolio[name]=qty
     else:
         print("Stock Not Found!")
 
 investment_values=[]
 
-for stock,qty in protfolio.items():
+for stock,qty in portfolio.items():
     price=stocks[stock]
     investment=price*qty
     investment_values.append(investment)
@@ -32,10 +32,10 @@ print("Total Investment:",total)
 with open("protfolio.txt","w")as file:
     file.write("Total Investment = "+str(total))
 
-stock_names=list(protfolio.keys())
+stock_names=list(portfolio.keys())
 
 plt.bar(stock_names,investment_values)
-plt.title("Stock Protfolio Investment")
+plt.title("Stock Portfolio Investment")
 plt.xlabel("Stocks")
 plt.ylabel("Investment Value")
 plt.show()
